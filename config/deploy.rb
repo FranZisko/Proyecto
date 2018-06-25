@@ -1,6 +1,6 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
-server "178.128.161.139", primary :true
+server "178.128.161.139"
 set :application, 'Proyecto'
 set :repo_url, 'git@github.com:FranZisko/Proyecto.git'
 set :user, 'root'
